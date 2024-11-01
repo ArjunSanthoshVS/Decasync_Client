@@ -11,6 +11,7 @@ const Sidebar = () => {
                 </div>
                 <Link to={'/supplier'} className='bg-[#00000000] backdrop-blur-2xl text-center py-2 pb-3 border border-[#bdbdbd] text-white w-[90%] rounded-lg'>Suppliers</Link>
                 <Link to={'/item'} className='bg-[#00000000] backdrop-blur-2xl text-center py-2 pb-3 border border-[#bdbdbd] text-white w-[90%] rounded-lg'>Items</Link>
+                <Link to={'/order'} className='bg-[#00000000] backdrop-blur-2xl text-center py-2 pb-3 border border-[#bdbdbd] text-white w-[90%] rounded-lg'>Orders</Link>
                 <Link to={'/supplierform'} className='bg-[#00000000] backdrop-blur-2xl text-center py-2 pb-3 border border-[#bdbdbd] text-white w-[90%] rounded-lg'>Create Supplier</Link>
                 <Link to={'/itemform'} className='bg-[#00000000] backdrop-blur-2xl text-center py-2 pb-3 border border-[#bdbdbd] text-white w-[90%] rounded-lg'>Create Item</Link>
             </div>

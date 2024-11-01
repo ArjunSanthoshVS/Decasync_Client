@@ -12,6 +12,7 @@ const Overlay = ({ setHamburger }) => {
                 </div>
                 <Link to={'/supplier'} className='text-center py-2 pb-3 text-white w-[90%]'>Suppliers</Link>
                 <Link to={'/item'} className='text-center py-2 pb-3 text-white w-[90%]'>Items</Link>
+                <Link to={'/order'} className='text-center py-2 pb-3 text-white w-[90%]'>Orders</Link>
                 <Link to={'/supplierform'} className='text-center py-2 pb-3 text-white w-[90%]'>Create Supplier</Link>
                 <Link to={'/itemform'} className='text-center py-2 pb-3 text-white w-[90%]'>Create Item</Link>
             </nav>

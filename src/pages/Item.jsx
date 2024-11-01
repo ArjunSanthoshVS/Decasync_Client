@@ -38,7 +38,7 @@ const Item = () => {
     };
 
     const handleOrderClick = () => {
-        navigate('/order', { state: { selectedItems } });
+        navigate('/orderform', { state: { selectedItems } });
     };
 
     return (
